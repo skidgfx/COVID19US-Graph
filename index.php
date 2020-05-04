@@ -87,7 +87,7 @@ for($offset=1; $offset < $numram; $offset++)
 {
 	$statelist = $statelist."'".$State[$offset]."'";
 	$confirmedlist = $confirmedlist."'".$Confirmed[$offset]."'";
-	$recoveredlist = $reoveredlist."'".$Recovered[$offset]."'";
+	$recoveredlist = $recoveredlist."'".$Recovered[$offset]."'";
 	$deathlist = $deathlist."'".$Deaths[$offset]."'";
 	$testedlist = $testedlist."'".$PeopleTested[$offset]."'";
 	
