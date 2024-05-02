@@ -7,7 +7,8 @@
 // SET TIME-ZONE TO ANYWHERE
 date_default_timezone_set('America/Los_Angeles');
 // CREATE DATE DD-MM-YYYY
-$_today = date('m\-d\-Y', time());
+//$_today = date('m\-d\-Y', time());
+$_today = '03-09-2023'; //LAST DATA REPORT
 // PULL CSV FROM GITHUB
 $lines =file('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/'.$_today.'.csv');
 
